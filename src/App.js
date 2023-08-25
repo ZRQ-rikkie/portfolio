@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import About from './componets/about/About.jsx';
 import Home from './componets/home/Home.jsx'
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Sidebar/>
-    <main>
+    <main className='main'>
       <Home/>
       <About/>
       <Services/>
