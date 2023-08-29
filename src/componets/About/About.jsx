@@ -19,10 +19,10 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Development</h3>
-                <span className="skills__number development">90%</span>
+                <span className="skills__number ">90%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills_percentage"></span>
+                <span className="skills__percentage development"></span>
               </div>
             </div>
 
@@ -32,7 +32,7 @@ const About = () => {
                 <span className="skills__number">60%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills_percentage"></span>
+                <span className="skills__percentage photography"></span>
               </div>
             </div>
 
@@ -42,7 +42,7 @@ const About = () => {
                 <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills_percentage ui__design"></span>
+                <span className="skills__percentage ui__design"></span>
               </div>
             </div>
 
