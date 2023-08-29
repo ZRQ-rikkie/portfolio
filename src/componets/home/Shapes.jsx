@@ -99,6 +99,7 @@ const Shapes = () => {
         <path
           d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z"
           stroke="#FFD15C"
+          
           stroke-width="3"
           fill="none"
           fill-rule="evenodd"
