@@ -15,6 +15,7 @@ const Home = () => {
         <span className="home__education">I'm a web developer</span>
         <HeaderSocials/>
       <a href="#contact" className="btn" >Hire Me</a>
+
       <ScrollDown/>
       <Shapes/>
 
