@@ -5,10 +5,10 @@ import Menu from './Menu'
 const Portfolio = () => {
   const [items, setItems] = useState(Menu)
   return (
-    <section className="work container" id="work">
+    <section className="work container section" id="work">
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">
-        <span className="work__item">Everytjing</span>
+        <span className="work__item">Everything</span>
         <span className="work__item">Creative</span>
         <span className="work__item">Art</span>
         <span className="work__item">Design</span>
@@ -25,12 +25,10 @@ const Portfolio = () => {
                 <div className="work__mask"></div>
               </div>
               <span className="work__category">{category}</span>
-              <h3 className="work__title"></h3>
-              <a href="" className="work__button">
-                <i className="icon__line work__button-icon
+              <h3 className="work__title">{title}</h3>
+              <a href="#" className="work__button">
+                <i className="icon-link work__button
                 "></i>
-
-
               </a>
 
             </div>
