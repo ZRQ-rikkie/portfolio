@@ -23,15 +23,16 @@ const Portfolio = () => {
 
       <div className="work__container grid">
         {items.map(elem =>{
-          const{id,image,title,category}=elem;
+          const{id,image,title,category,description}=elem;
           return(
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
                 <img src={image} alt="" className="work__img" />
                 <div className="work__mask"></div>
               </div>
-              <span className="work__category">{category}</span>
+              {/* <span className="work__category">{category}</span> */}
               <h3 className="work__title">{title}</h3>
+              <p className='Work__description'>{description}</p>
 
               <a href="#" className="work__button"id="demo">
                 Demo

@@ -13,6 +13,7 @@
 
 .home__img {
     margin-bottom: 1.5rem;
+    width: 50%;
 }
 
 .home__name {
@@ -25,6 +26,7 @@
     display: flex;
     column-gap: 1.75rem;
     margin: 1.5rem 0;
+    justify-content: center;
 }
 
 .home__social-link {
@@ -34,7 +36,7 @@
 }
 
 .home__social-link:hover {
-    color: hsl(43, 100%, 68%);
+    color: #CAE9FF;
 }
 
 .scroll__down {
@@ -161,7 +163,7 @@
 
 
 @media screen and (max-width:1024px) {
-   
+
 
     .home__social-link {
         font-size: 1.125rem;
