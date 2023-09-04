@@ -1,7 +1,7 @@
 # My Portfolio Website
 
 ## Overview
-This is a responsive portfolio website built using React. It features a beautiful and intuitive user interface that adapts seamlessly to all mobile devices. The website consists of various sections like Sidebar, Home, About, Skills, Qualification, Experience, Services, Portfolio, Blog, Testimonial, Pricing, and Contact.
+This is a responsive portfolio website built using React. It features a beautiful and intuitive user interface that adapts seamlessly to all mobile devices. The website consists of various sections like Sidebar, Home, About, Skills, Qualification, Experience,  Portfolio and Contact.
 
 ## Live Demo
 [Click Here for a Live Demo](#)
