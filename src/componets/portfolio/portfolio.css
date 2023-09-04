@@ -32,7 +32,7 @@
 
 
 .work__mask {
-    background: #6c6ce5;
+    background: #5FA8D3;
     position: absolute;
     left: 0;
     top: 0;
@@ -48,7 +48,7 @@
 
 .work__category {
     color: #fff;
-    background-color: var(--first-color);
+    background-color: #BEE9E8;
     border-bottom-left-radius: 0.98rem;
     border-bottom-right-radius: 0.98rem;
     position: absolute;
@@ -81,7 +81,7 @@
     font-size: var(--normal-font-size);
     border-radius: var(--border-radius);
     display: block;
-    background-color: #ffd15c;
+    background-color: #1B4965;
     height: 40px;
     width: 100px;
     cursor: pointer;

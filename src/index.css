@@ -5,9 +5,9 @@
 :root {
     /* ============== Colors ================== */
     /* Color mode HSL */
-    --first-color: hsl(353, 100%, 65%);
+    --first-color: #62B6CB;
     --title-color: hsl(244, 24%, 26%);
-    --text-color: hsl(244, 16%, 43%);
+    --text-color: #1B4965;
     --body-color: hsl(258, 60%, 98%);
     --container-color: #fff;
 

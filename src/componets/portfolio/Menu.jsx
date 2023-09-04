@@ -12,6 +12,7 @@ const Menu = [
     image: Work1,
     title: "Project Management Illustration",
     category: "Design",
+    description:"Project Management Illustration"
   },
   {
     id: 2,
