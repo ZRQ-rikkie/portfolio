@@ -15,10 +15,10 @@ const Portfolio = () => {
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">
         <span className="work__item" onClick={()=> setItems(Menu)}>Everything</span>
-        <span className="work__item" onClick={()=>filterItem('Creative')}>Creative</span>
-        <span className="work__item" onClick={()=>filterItem('Art')}>Art</span>
-        <span className="work__item" onClick={()=>filterItem('Design')}>Design</span>
-        <span className="work__item" onClick={()=>filterItem('Branding')}>Branding</span>
+        <span className="work__item" onClick={()=>filterItem('Fullstack')}>Fullstack</span>
+        <span className="work__item" onClick={()=>filterItem('Backend')}>Backend</span>
+        <span className="work__item" onClick={()=>filterItem('Frontend')}>Frontend</span>
+        <span className="work__item" onClick={()=>filterItem('UI/UX Design')}>UI/UX Design</span>
       </div>
 
       <div className="work__container grid">
@@ -30,16 +30,16 @@ const Portfolio = () => {
                 <img src={image} alt="" className="work__img" />
                 <div className="work__mask"></div>
               </div>
-              {/* <span className="work__category">{category}</span> */}
+              <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <p className='Work__description'>{description}</p>
+              <p className='work__description'>{description}</p>
 
-              <a href="#" className="work__button"id="demo">
+              <a href="#" className="work__button "id="demo">
                 Demo
                    <i className="icon-link work__button-icon
                 "></i>
               </a>
-              <a href="#" className="work__button"id="code">
+              <a href="#" className="work__button "id="code">
                 Code
                 <i class="fa-solid fa-code"></i>
               </a>

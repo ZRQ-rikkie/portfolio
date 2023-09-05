@@ -11,41 +11,41 @@ const Menu = [
     id: 1,
     image: Work1,
     title: "Project Management Illustration",
-    category: "Design",
-    description:"Project Management Illustration"
+    category: "Fullstack",
+    description:"Project Management Illustration "
   },
   {
     id: 2,
-    image: Work2,
+    image: Work1,
     title: "Guest App Walkthrough Screens",
-    category: "Art",
+    category: "Backend",
   },
   {
     id: 3,
-    image: Work3,
+    image: Work1,
     title: "Delivery App Wireframe",
-    category: "Branding",
+    category: "Frontend",
   },
   ,
   {
     id: 4,
-    image: Work4,
+    image: Work1,
     title: "Onboarding Motivation",
-    category: "Design",
+    category: "Fullstack",
   },
   ,
   {
     id: 5,
-    image: Work5,
+    image: Work1,
     title: "iMac Mockup Design",
-    category: "Creative",
+    category: "Backend",
   },
   ,
   {
     id: 6,
-    image: Work6,
+    image: Work1,
     title: "Game Store App Concept",
-    category: "Art",
+    category: "Backend",
   },
 ];
 

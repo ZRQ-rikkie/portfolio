@@ -3,6 +3,7 @@ import './about.css'
 import Image from "../../assets/me.png"
 import AboutBox from './AboutBox'
 
+
 const About = () => {
   return (
     <section className="about container section" id='about'>
@@ -12,14 +13,14 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info ">
-            <p className="about__description">I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-            <a href="#home" className="btn">Download CV</a>
+            <p className="about__description">Hello, I'm Ruiqi. Currently based in Dublin, I'm delving deep into the world of computer science at the graduate level after transitioning from a career in architecture. As a freelance designer with a strong focus on tech solutions, I've honed my skills to be agile, approachable, and exceedingly patient.</p>
+            <a href="G:\0others\My portfolio\portfolio\my-portfolio\src\componets\about\myCV.pdf" download className="btn">Download CV</a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">Backend</h3>
                 <span className="skills__number ">90%</span>
               </div>
               <div className="skills__bar">
@@ -29,7 +30,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
+                <h3 className="skills__name">Frontend</h3>
                 <span className="skills__number">60%</span>
               </div>
               <div className="skills__bar">
