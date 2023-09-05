@@ -73,6 +73,18 @@
     opacity: 0;
 }
 
+.work__description {
+    color: #fff;
+    font-size: var(--small-font-size);
+    margin: 0 0 0.98rem;
+    transform: translateY(30px);
+    transition: .3s;
+    position: absolute;
+    top: 8rem;
+    left:1.25rem;
+    opacity: 0;
+}
+
 
 
 .work__button {
@@ -85,6 +97,7 @@
     height: 40px;
     width: 100px;
     cursor: pointer;
+    transform: translateY(30px);
 
     text-align: center;
     line-height: 42px;
@@ -95,6 +108,7 @@
 #demo {
     position: absolute;
     left: 2.5rem;
+    text-align: -2rem;
 }
 
 #code {
@@ -103,23 +117,23 @@
 }
 
 
-.work__card:hover .work__button {
-    opacity: 1;
-}
+
 
 .work__card:hover .work__title,
-.work__card:hover .work__category {
+.work__card:hover .work__category,
+.work__card:hover .work__description,
+.work__card:hover .work__button {
     opacity: 1;
     transform: translateY(0);
 }
 
 @media screen and (max-width:1024px) {
-    .work__filters{
+    .work__filters {
         justify-content: center;
     }
 
     .work__container {
-        grid-template-columns: repeat(2,330px);
+        grid-template-columns: repeat(2, 330px);
         justify-content: center;
         row-gap: 1.875rem;
     }
@@ -133,7 +147,7 @@
         grid-template-columns: 310px;
     }
 
-    .work__filters{
+    .work__filters {
         row-gap: .25rem;
     }
 

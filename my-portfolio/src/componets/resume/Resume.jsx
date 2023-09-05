@@ -20,7 +20,7 @@ const Resume = () => {
           })}
         </div>
 
-        <div className="timeline grid">
+        {/* <div className="timeline grid">
           {Data.map((val,index) => {
             if(val.category ==='experience'){
               return(
@@ -29,7 +29,7 @@ const Resume = () => {
               )
             }
           })}
-        </div>
+        </div> */}
 
 
       </div>
