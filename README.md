@@ -28,16 +28,6 @@ This is a responsive portfolio website built using React. It features a beautifu
 
 ---
 
-## How to Install and Run
-
-### Prerequisites
-- Node.js
-- NPM
 
 
-```bash
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
 
