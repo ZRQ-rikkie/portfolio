@@ -24,6 +24,7 @@ This is a responsive portfolio website built using React. It features a beautifu
 - HTML
 - Bootstrap
 - Docker
+- Nginx
 
 ---
 
@@ -33,24 +34,7 @@ This is a responsive portfolio website built using React. It features a beautifu
 - Node.js
 - NPM
 
-### Installing
-1. Clone the repository
-    ```bash
-    git clone https://github.com/your-username/your-portfolio.git
-    ```
 
-2. Navigate to the project directory
-    ```bash
-    cd your-portfolio
-    ```
-
-3. Install dependencies
-    ```bash
-    npm install
-    ```
-
-### Running
-Start the development server
 ```bash
 npm start
 ```
