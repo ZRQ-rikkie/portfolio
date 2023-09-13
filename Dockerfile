@@ -1,10 +1,13 @@
 From node:18.17.1 as build
 
-WORK /app
+WORKDIR /app
 
 COPY package*.json .
 RUN npm install
 COPY . .
-Run npm run build
+RUN npm run build
 
-From nginx
+FROM nginx:1.19
+
+COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /app/build /usr/share/nginx/html
