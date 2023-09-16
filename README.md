@@ -29,6 +29,8 @@ This professionally designed portfolio website is built with React.js. Utilizing
 - **Nginx**: Serves as the web server, managing static file delivery and HTTP requests to enable a fast and secure user experience.
 
 - **Azure & Azure CI/CD Pipeline**: Hosting is provided via Azure's powerful and scalable cloud infrastructure. The Azure CI/CD Pipeline is integrated to automate build and deployment, enabling a streamlined workflow from development to production.
+- ![image](https://github.com/ZRQ-rikkie/portfolio/assets/74203373/c4170803-2134-4c6f-88cc-73832b6e1eff)
+
   ![image](https://github.com/ZRQ-rikkie/portfolio/assets/74203373/0595898c-d6c5-4241-bc36-c3d5f15d47f5)
 
 
