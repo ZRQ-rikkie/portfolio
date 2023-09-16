@@ -32,6 +32,8 @@ This professionally designed portfolio website is built with React.js. Utilizing
 - ![image](https://github.com/ZRQ-rikkie/portfolio/assets/74203373/c4170803-2134-4c6f-88cc-73832b6e1eff)
 
   ![image](https://github.com/ZRQ-rikkie/portfolio/assets/74203373/0595898c-d6c5-4241-bc36-c3d5f15d47f5)
+  ![image](https://github.com/ZRQ-rikkie/portfolio/assets/74203373/edbbb5c7-b5a5-4b12-a4ad-81efcd460b18)
+
 
 
 
